@@ -14,4 +14,3 @@
 ---
 include:
   - board: rable
-    shield: settings_reset

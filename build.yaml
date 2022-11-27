@@ -12,9 +12,9 @@
 #     shield: reviung41
 #
 ---
-include:
-  - board: rable
-  - board: rable
-    shield: settings_reset
-    cmake-args: "-DCONFIG_ZMK_BLE_CLEAR_BONDS_ON_START=y"
-    nickname: "settings_reset"
+board: ["rable"]
+#include:
+#  - board: rable
+#  - board: rable
+#    cmake-args: "-DCONFIG_ZMK_BLE_CLEAR_BONDS_ON_START=y"
+#    nickname: "settings_reset"
